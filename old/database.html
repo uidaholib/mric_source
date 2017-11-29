@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="max-age=200" />
+<meta name="Keywords" content="idaho, university of idaho, interdisciplinary, colloquium, renfrew interdisciplinary colloquium" />
+<meta name="description" content="Database containing records of the 241 pages contained in the MRIC Web Archive. The Malcolm M. Renfrew Interdisciplinary Colloquium is a long standing series of lectures by distinguished members of the University of Idaho community presenting and describing their approach to teaching and/or research in their respective disciplines. To preserve access to the record of the MRIC lectures, University of Idaho Library captured the pages in their web context as of October 2015." />
+<title>MRIC Web Archive Database</title>
+
+<link href="../master_photo_collections.css" rel="stylesheet" type="text/css" /> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="../javascript/jspkg-archive/jquery.dynatable.js"></script>
+
+<style>
+.box1 { overflow: hidden;
+}
+table#mricTable {
+	width:100%;
+	text-align:left;
+	border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+	vertical-align: top;
+}
+td {
+	border-top: 1px solid grey;
+}
+div.fullText {
+	max-height:4em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+div.fullText:hover {max-height:none; overflow:visible;}
+/* modified dynatable css */
+
+th a:hover {
+  color: #b09448;
+  text-decoration: none;
+}
+.dynatable-search {
+	float: right;
+  margin-bottom: 15px;
+}
+.dynatable-pagination-links {
+  float: right;
+}
+.dynatable-record-count {
+  display: block;
+  padding: 5px 0;
+  font-style: italic;
+}
+.dynatable-pagination-links span,
+.dynatable-pagination-links li {
+  display: inline-block;
+}
+.dynatable-page-link,
+.dynatable-page-break {
+  display: block;
+  padding: 5px 7px;
+}
+.dynatable-page-link {
+  cursor: pointer;
+}
+.dynatable-active-page,
+.dynatable-disabled-page {
+  cursor: text;
+}
+.dynatable-active-page:hover,
+.dynatable-disabled-page:hover {
+  text-decoration: none;
+}
+.dynatable-active-page {
+  background: #48b060;
+  border-radius: 5px;
+  color: #fff;
+}
+.dynatable-active-page:hover {
+  color: #fff;
+}
+.dynatable-disabled-page,
+.dynatable-disabled-page:hover {
+  background: none;
+  color: #999;
+}
+</style>
+
+</head>
+
+<body>
+<!--#include virtual="/digital/collectionspull.txt" -->
+<div class="box1">
+<div class="diginit">
+ <a id="digleft" href="http://www.lib.uidaho.edu/digital/index.html" title="University of Idaho Library Digital Initiatives">
+  <img id="digleft" src="https://www.lib.uidaho.edu/digital/justdi_logo_sm.png" alt="digital initiatives logo"></a>
+ <a href="http://www.lib.uidaho.edu" title="University of Idaho Library"> <img id="libleft" src="https://www.lib.uidaho.edu/digital/justlib_logo_sm.png" alt="library logo"></a>  </div>
+
+ <div id="title">
+ <h2><a href="http://www.lib.uidaho.edu/digital/mric/">Malcolm M. Renfrew Interdisciplinary Colloquium Web Archive</a></h2>
+		<p>Preserving access to past <a href="http://www.uidaho.edu/class/mric">MRIC</a> web content.</p>
+</div>
+</div>
+
+<div class="tabs">
+
+<div class="box2">
+	<div class="nav2">
+	<a href="index.html">Search</a>
+    <a href="about.html">About</a>
+	<a href="database.html" class="select">Database</a>
+</div></div>
+
+<div class="box3" id="text1" name="text"  >
+
+<table id="mricTable">
+<thead>
+<th style="width:35%;">Title</th>
+<th style="width:65%;">Abstract</th>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<script>
+$.getJSON('MRICtable.json', function (response) {     
+  $('#mricTable').dynatable({
+  dataset: {
+    records: response
+  },
+});
+
+});
+</script>
+<!-- Google Analytics -->
+<!--#include virtual="/digital/digitalanalytics.txt" -->
+<!-- End Google Analytics -->
+</body>
+</html>
