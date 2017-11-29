@@ -1,0 +1,23 @@
+# Jekyll GH-pages Digital Collection Generator
+
+# Site settings
+title: Malcolm M. Renfrew Interdisciplinary Colloquium Web Archive
+description: Preserving access to past MRIC web content.
+keywords: university of idaho, Malcolm M. Renfrew Interdisciplinary Colloquium, digital collections, web archive
+owner: University of Idaho Library
+email: ewilliamson@uidaho.edu
+
+# url variables
+url: https://www.lib.uidaho.edu/digital
+baseurl: /mric
+liburl: https://www.lib.uidaho.edu
+digurl: https://www.lib.uidaho.edu/digital
+repourl: https://digital.lib.uidaho.edu
+
+# page gen settings https://github.com/avillafiorita/jekyll-datapage_gen
+page_gen:
+  - data: 'mric'
+    template: 'letter'
+    name: 'date'
+    dir: 'letters'
+    extension: 'html'
