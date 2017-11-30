@@ -8,8 +8,8 @@ owner: University of Idaho Library
 email: ewilliamson@uidaho.edu
 
 # url variables
-url: https://www.lib.uidaho.edu/digital
-baseurl: /mric
+url: https://www.lib.uidaho.edu
+baseurl: /digital/mric
 liburl: https://www.lib.uidaho.edu
 digurl: https://www.lib.uidaho.edu/digital
 repourl: https://digital.lib.uidaho.edu
@@ -18,6 +18,6 @@ repourl: https://digital.lib.uidaho.edu
 page_gen:
   - data: 'mric'
     template: 'letter'
-    name: 'date'
-    dir: 'letters'
+    name: 'date' # date wont work
+    dir: 'abstract'
     extension: 'html'
