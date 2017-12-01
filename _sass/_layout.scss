@@ -491,6 +491,11 @@ width:100%;
     width:90%;
   }
 }
+#archive-url {
+  font-style: italic;
+  color: $grey-color;
+  border-top: solid 1px $grey-color;
+}
 .back-button {
   display: inline-block;
   border: solid 1px grey;

@@ -18,6 +18,6 @@ repourl: https://digital.lib.uidaho.edu
 page_gen:
   - data: 'mric'
     template: 'letter'
-    name: 'date' # date wont work
-    dir: 'abstract'
+    name: 'name'
+    dir: 'archive'
     extension: 'html'

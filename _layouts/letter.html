@@ -10,12 +10,13 @@ layout: default
     <div class="wrapper">
         
         <div class="letter-info">
-            <h2 id="letter-title">Friday Letter {{ page.date}}:<br>{{ page.title }}</h2>
-            <p id="archive-warning">Please note: this is an archived email message and may not display as originally intended. Some images, links, and functionality may be broken or out of date.</p>
+            <h2 id="letter-title">{{ page.title }}<br>MRIC {{ page.date }}</h2>
+            <p id="archive-warning">Please note: this is archived content harvested from a web page and may not display as originally intended. Some images, links, and functionality may be broken or out of date.</p>
         </div>
 
         <div class="letter"> {{ page.body }}</div>
 
+        <div id="archive-url">Original url: {{ page.original_link }}</div>
         <div class="back-button">
             <a href="{{ site.baseurl }}/">❮ Back to Archive Home</a>
         </div>

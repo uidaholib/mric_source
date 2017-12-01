@@ -28,4 +28,4 @@ If you would like to recover a broken link, please try pasting the URL in the In
 
 For current information, please visit [Malcolm M. Renfrew Interdisciplinary Colloquium](http://www.uidaho.edu/class/mric).
 
-<img src="images/221x321-UIC-graphic.jpg" style="width:70%">
+<img src="images/221x321-UIC-graphic.jpg" style="width:25%">
