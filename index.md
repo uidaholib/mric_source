@@ -18,16 +18,16 @@ Click on the "Read" link to see the full abstract.
 <table id="index-table" class="display">
     <thead>
         <tr>
-            <th>Title</th>
             <th>Date</th>
+            <th>Title</th>
             <th>Abstract</th>
         </tr>
     </thead>
     <tbody>
 {% for item in items %}        
         <tr>
-            <td>{{ item.title }}</td>
             <td>{{ item.date }}</td>
+            <td>{{ item.title }}</td>
             <td>{{ item.body | strip_html | truncatewords: 40 }} <a href="{{ site.baseurl }}/archive/{{ item.name }}.html">View</a></td>
         </tr>
 {% endfor %}
@@ -39,5 +39,13 @@ Click on the "Read" link to see the full abstract.
 <script>
     var dataTable = new DataTable("#index-table", {
         perPage: 20,
+        fixedColumns: true,
+        layout: {
+            top: "{info}{search}",
+            bottom: "{select}{pager}"
+        },
+        columns: [
+            { select: 0, sort: "desc" }
+        ]
     });
 </script>
