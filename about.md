@@ -5,13 +5,15 @@ title: About
 
 # About Malcolm M. Renfrew Interdisciplinary Colloquium
 
-The Malcolm M. Renfrew Interdisciplinary Colloquium (MRIC) is a long standing series of lectures by distinguished members of the University of Idaho community presenting and describing their approach to teaching and/or research in their respective disciplines.
-The lectures explore the specific subjects and methodologies that define the disciplines within which the speakers work.
+The Malcolm M. Renfrew Interdisciplinary Colloquium (MRIC) is a long standing series of lectures by distinguished members of the University of Idaho community presenting and describing their approach to teaching and/or research in their respective disciplines. 
+The lectures explore the specific subjects and methodologies that define the disciplines within which the speakers work. 
+In 2015, the colloquium received the university's award for excellence in interdisciplinary and collaborative efforts.
 
-The colloquium is named in honor of Professor Malcolm M. Renfrew, esteemed chemist, teacher, artist, trombonist, philanthropist, and Vandal.
-Professor Renfrew has combined an interest in science with enduring interests in the arts and humanities.
-An important and influential chemist and teacher, Professor Renfrew is also an accomplished painter.
-His robust curiosity made Professor Renfrew a fixture in the early years of the University Interdisciplinary Colloquium, providing important and helpful guidance to the series directors.
+The colloquium is named in honor of Professor Malcolm M. Renfrew (1910-2013), esteemed chemist, teacher, artist, trombonist, philanthropist, and Vandal. 
+Professor Renfrew has combined an interest in science with enduring interests in the arts and humanities. 
+An important and influential chemist and teacher, Professor Renfrew is also an accomplished painter. 
+His robust curiosity made Professor Renfrew a fixture in the early years of the University Interdisciplinary Colloquium, providing important and helpful guidance to the series directors. 
+The series was renamed after Professor Renfrew in 2010 on his 100th birthday.
 
 ## About the Web Archive
 
