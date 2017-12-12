@@ -18,7 +18,7 @@ Click on the "Read" link to see the full abstract.
 <table id="index-table" class="display">
     <thead>
         <tr>
-            <th>Date</th>
+            <th>Year</th>
             <th>Title</th>
             <th>Abstract</th>
         </tr>
