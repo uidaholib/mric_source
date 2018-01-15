@@ -5,15 +5,13 @@ title: Home
 {% assign items = site.data.mric %}
 
 <link href="{{ site.baseurl }}/css/vanilla-dataTables.min.css" rel="stylesheet" type="text/css">
+<img src="images/957-uic.jpg" style="width:100%">
 
 ## Browse the MRIC Archives
 
-Malcolm M. Renfrew Interdisciplinary Colloquium is a long standing lecture series by distinguished members of the University of Idaho community presenting and describing their approach to teaching and research in their disciplines.
+[Malcolm M. Renfrew Interdisciplinary Colloquium](http://www.uidaho.edu/class/mric) is a long standing lecture series by distinguished members of the University of Idaho community presenting and describing their approach to teaching and research in their disciplines.
 This web archive preserves access to a record of past lectures as presented on the MRIC website, often including an abstract and video recordings.
-For information about MRIC and this project, please visit the [About page](about.html).
-
-This table provides sorting and basic search of the archives contents. 
-Click on the "Read" link to see the full abstract.
+For information about MRIC and the [Web Archive Collections](https://www.lib.uidaho.edu/digital/webarchive/), please visit the [About page](about.html).
 
 <table id="index-table" class="display">
     <thead>
@@ -27,7 +25,7 @@ Click on the "Read" link to see the full abstract.
 {% for item in items %}        
         <tr>
             <td>{{ item.date }}</td>
-            <td>{{ item.title }}</td>
+            <td><a href="{{ site.baseurl }}/archive/{{ item.name }}.html">{{ item.title }}</a></td>
             <td>{{ item.body | strip_html | truncatewords: 40 }} <a href="{{ site.baseurl }}/archive/{{ item.name }}.html">View</a></td>
         </tr>
 {% endfor %}
