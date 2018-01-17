@@ -18,14 +18,15 @@ The series was renamed after Professor Renfrew in 2010 on his 100th birthday.
 ## About the Web Archive
 
 The MRIC website contains a record of colloquium lectures stretching back to 2010, often including links to video recordings. 
-However, in autumn 2015 the University of Idaho website moved to an updated platform. 
-Older items risk becoming incompatible with the new system. 
-To ensure continued access to the record of the MRIC lectures, University of Idaho Library captured the pages in their web context as of October 2015 and continues to harvest content on an annual basis. 
+However, in autumn 2015 the University of Idaho website moved to an updated platform and older items were removed from the system.
+
+To ensure continued access to the unique record of the MRIC lectures, University of Idaho Library captured the pages in their web context as of October 2015 and continues to harvest content on an annual basis.
+Select materials are made available in the [Web Archive Collections](https://www.lib.uidaho.edu/digital/webarchive/).
 The archive contains more than 240 items that can searched in the [table](index.html) or by [Google Custom Search](search.html).
 
-Please note: to preserve basic functionality outside of the original content management system, all JavaScript and external dependencies found in the original web pages have been removed.
+*Please note,* to preserve basic functionality outside of the original content management system, all JavaScript and external dependencies found in the original web pages have been removed.
 Some images, links, and functionality may be broken or out of date.
-The content may not display as originally intended.
+The content is not displayed as originally intended.
 If you would like to recover a broken link, please try pasting the URL in the Internet Archive [Wayback Machine](https://archive.org/web/).
 
 For current information, please visit [Malcolm M. Renfrew Interdisciplinary Colloquium](http://www.uidaho.edu/class/mric).
