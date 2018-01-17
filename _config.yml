@@ -1,5 +1,8 @@
 # Jekyll GH-pages Digital Collection Generator
 
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+
 # Site settings
 title: Malcolm M. Renfrew Interdisciplinary Colloquium Web Archive
 description: Preserving access to past MRIC web content.
