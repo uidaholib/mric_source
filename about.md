@@ -5,6 +5,7 @@ title: About
 
 # About Malcolm M. Renfrew Interdisciplinary Colloquium
 
+<img src="images/221x321-UIC-graphic.jpg" style="float:right;width:35%;margin:5px 15px;">
 The [Malcolm M. Renfrew Interdisciplinary Colloquium](http://www.uidaho.edu/class/mric) (MRIC) is a long standing series of lectures by distinguished members of the University of Idaho community presenting and describing their approach to teaching and/or research in their respective disciplines. 
 The lectures explore the specific subjects and methodologies that define the disciplines within which the speakers work. 
 In 2015, the colloquium received the university's award for excellence in interdisciplinary and collaborative efforts.
@@ -30,5 +31,3 @@ The content is not displayed as originally intended.
 If you would like to recover a broken link, please try pasting the URL in the Internet Archive [Wayback Machine](https://archive.org/web/).
 
 For current information, please visit [Malcolm M. Renfrew Interdisciplinary Colloquium](http://www.uidaho.edu/class/mric).
-
-<img src="images/221x321-UIC-graphic.jpg" style="width:25%">
